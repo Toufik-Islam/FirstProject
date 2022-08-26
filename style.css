@@ -3,29 +3,41 @@
     }
 
     header{
-        height: 50px;
-        background-color: wheat;
         margin-top: 0;
         margin-left: 0;
     }
-
-
-    .quickbar .top {
-        text-align: justify;
-        font-size: 30px;
-        padding: 10px 0px 2px 25px;
-
-        
-    }
-    .quickbar .top a {
-        color: blue;
+    .topnav {
+        overflow: hidden;
+        background-color: navajowhite;
+        padding-left: 20px;
         font-weight: bold;
-    }
+        width: fit-content;
+      }
+      
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: flexbox;
+        color: rgb(192, 25, 25);
+        text-align: justify;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px 30px;
+      }
+      
+      /* Change color on hover */
+     .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+        }
+      
 
+ 
 
 
     body {
         align-items: center;
+        display: block;
     }
 
 
